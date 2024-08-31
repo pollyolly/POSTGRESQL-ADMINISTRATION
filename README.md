@@ -3,6 +3,10 @@
 
 [PostgreSQL Remote Connection](https://medium.com/@johnmark_76235/postgresql-remote-connection-with-pgadmin-on-a-virtual-private-server-ubuntu-f82bcc9e197c)
 
+### Show all Users
+```
+postgres=#\du+
+```
 ### Use Database
 ```
 postgres=#\c sample_database
