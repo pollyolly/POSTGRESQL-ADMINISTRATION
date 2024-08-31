@@ -11,7 +11,7 @@ Show Password
 ```sql
 SELECT rolname, rolpassword FROM pg_authid;
 ```
-Show users
+Show Users
 ```sql
 SELECT * FROM pg_user;
 ```
