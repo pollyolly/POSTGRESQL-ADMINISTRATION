@@ -7,6 +7,10 @@
 ```
 postgres=#\du+
 ```
+Show password
+```sql
+SELECT rolname, rolpassword FROM pg_authid;
+```
 ### Use Database
 ```
 postgres=#\c sample_database
