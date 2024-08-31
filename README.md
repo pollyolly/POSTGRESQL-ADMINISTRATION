@@ -7,9 +7,13 @@
 ```
 postgres=#\du+
 ```
-Show password
+Show Password
 ```sql
 SELECT rolname, rolpassword FROM pg_authid;
+```
+Show users
+```sql
+SELECT * FROM pg_user;
 ```
 ### Use Database
 ```
