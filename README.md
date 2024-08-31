@@ -7,6 +7,10 @@
 ```
 postgres=#\c sample_database
 ```
+### Show all tables
+```
+postgres=#\d
+```
 ### Show all databases
 ```
 postgres=#\list
